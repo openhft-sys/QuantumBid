@@ -10,21 +10,17 @@
 
 - [Experimental Technology Disclaimer](#experimental-technology-disclaimer)
 - [Quickstart](#quickstart)
-- [Why Codex?](#whycodex)
+- [Why QuantumBid?](#whyquantumbid)
 - [Security Model \& Permissions](#securitymodelpermissions)
   - [Platform sandboxing details](#platform-sandboxing-details)
 - [System Requirements](#systemrequirements)
 - [CLI Reference](#clireference)
 - [Memory \& Project Docs](#memoryprojectdocs)
 - [Non‑interactive / CI mode](#noninteractivecimode)
-- [Recipes](#recipes)
 - [Installation](#installation)
 - [Configuration](#configuration)
-- [FAQ](#faq)
-- [Funding Opportunity](#funding-opportunity)
 - [Contributing](#contributing)
   - [Development workflow](#development-workflow)
-    - [Nix Flake Development](#nix-flake-development)
   - [Writing high‑impact code changes](#writing-highimpact-code-changes)
   - [Opening a pull request](#opening-a-pull-request)
   - [Review process](#review-process)
@@ -32,10 +28,7 @@
   - [Getting help](#getting-help)
   - [Contributor License Agreement (CLA)](#contributor-license-agreement-cla)
     - [Quick fixes](#quick-fixes)
-  - [Releasing `codex`](#releasing-codex)
-- [Security \& Responsible AI](#securityresponsibleai)
 - [License](#license)
-- [Zero Data Retention (ZDR) Organization Limitation](#zero-data-retention-zdr-organization-limitation)
 
 </details>
 
