@@ -41,7 +41,7 @@
 
 ## Experimental Technology Disclaimer
 
-Codex CLI is an experimental project under active development. It is not yet stable, may contain bugs, incomplete features, or undergo breaking changes. We’re building it in the open with the community and welcome:
+QuantumBid is an experimental project under active development. It is not yet stable, may contain bugs, incomplete features, or undergo breaking changes. We’re building it in the open with the community and welcome:
 
 - Bug reports
 - Feature requests
@@ -55,13 +55,13 @@ Help us improve by filing issues or submitting PRs (see the section below for ho
 Install globally:
 
 ```shell
-npm install -g @openai/codex
+Download repo locally and run the QuantumBid.py file in your local terminal.
 ```
 
-Next, set your OpenAI API key as an environment variable:
+Next, set your 5paisa API credentials
 
 ```shell
-export OPENAI_API_KEY="your-api-key-here"
+change the auth credentials within the auth.py file in the auth folder
 ```
 
 > **Note:** This command sets the key only for your current terminal session. To make it permanent, add the `export` line to your shell's configuration file (e.g., `~/.zshrc`).
