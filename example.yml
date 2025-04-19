@@ -1,0 +1,284 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: powershell.exe
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: C:\openhftprod\QuantumBid
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 120
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 30
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 638
+    content: "\e[2J\e[m\e[HWindows PowerShell\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nTry the new cross-platform PowerShell https://aka.ms/pscore6\e]0;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\a\e[?25h"
+  - delay: 14
+    content: "\e[25l\e[6;1H\e[?25h"
+  - delay: 102
+    content: 'PS C:\openhftprod\QuantumBid> '
+  - delay: 1144
+    content: "\e[?25l"
+  - delay: 16
+    content: "\e[93mp\e[?25h"
+  - delay: 166
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[93m\bpy\e[?25h"
+  - delay: 521
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[6;31Hpyt\e[?25h"
+  - delay: 106
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[6;31Hpyth\e[?25h"
+  - delay: 126
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[6;31Hpytho\e[?25h"
+  - delay: 201
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[6;31Hpython\e[?25h"
+  - delay: 108
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[6;31Hpython\e[m \e[?25h"
+  - delay: 482
+    content: "\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[6;31Hpython\e[m q\e[?25h"
+  - delay: 120
+    content: "\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[6;31Hpython\e[m qu\e[?25h"
+  - delay: 90
+    content: "\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[6;31Hpython\e[m qua\e[?25h"
+  - delay: 113
+    content: "\e[?25l"
+  - delay: 8
+    content: "\e[93m\e[6;31Hpython\e[m quan\e[?25h"
+  - delay: 135
+    content: "\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[6;31Hpython\e[m quant\e[?25h"
+  - delay: 106
+    content: "\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[6;31Hpython\e[m quantu\e[?25h"
+  - delay: 233
+    content: "\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[6;31Hpython\e[m quantum\e[?25h"
+  - delay: 224
+    content: "\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[6;31Hpython\e[m quantumb\e[?25h"
+  - delay: 182
+    content: "\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[6;31Hpython\e[m quantumbi\e[?25h"
+  - delay: 102
+    content: "\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[6;31Hpython\e[m quantumbid\e[?25h"
+  - delay: 546
+    content: "\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[6;31Hpython\e[m quantumbid.\e[?25h"
+  - delay: 206
+    content: "\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[6;31Hpython\e[m quantumbid.p\e[?25h"
+  - delay: 143
+    content: "\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[6;31Hpython\e[m quantumbid.py\e[?25h"
+  - delay: 343
+    content: "\r\n"
+  - delay: 1087
+    content: 'enter totp >>> '
+  - delay: 5365
+    content: '8'
+  - delay: 488
+    content: '2'
+  - delay: 312
+    content: '2'
+  - delay: 520
+    content: '0'
+  - delay: 144
+    content: '0'
+  - delay: 432
+    content: '7'
+  - delay: 748
+    content: "\r\n"
+  - delay: 562
+    content: "\e[32m 11:55:41\e[m | \e[1m\e[97mRequestToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjU5NzA0MDk5Iiwicm9sZSI6IlN5S3NYdlhmR\r\n2JybGxuYnJmc1JXejNhNm5WVGNWeXNxIiwiU3RhdGUiOiIiLCJuYmYiOjE3NDUwNDM5NDEsImV4cCI6MTc0NTA0NzU0MSwiaWF0IjoxNzQ1MDQzOTQxfQ.rx\r\n-2crzWO23FVpRzmQ3wWQabvQmX2yp-rJYBLf95moc\e[m\e[K\r\n"
+  - delay: 68
+    content: "\e[32m 11:55:41\e[m | \e[1m\e[97mLogged in!!\r\n"
+  - delay: 20
+    content: "\e[m-------------------------------------------------------------      \r\n-------------------------QUANTUM BID-------------------------      \r\n-------------------------------------------------------------      \r\n \e[66X\r\n \e[66X\r\nFetching OrderBook data to determine Bid-Ask quantity for NESTLEIND\r\n \e[66X\r\n"
+  - delay: 148
+    content: "\e[32m 11:55:41\e[m | \e[1m\e[97mSuccess\r\n"
+  - delay: 19
+    content: "\e[m\e[1m────────────────────────────────────────── Orderbook Data ──────────────────────────────────────────\r\n0\e[22m  \e[1m0.00\e[22m\e[93X\e[1m\r\n0\e[22m  \e[1m0.00\e[22m\e[93X\e[1m\r\n0\e[22m  \e[1m0.00\e[22m\e[93X\e[1m\r\n0\e[22m  \e[1m0.00\e[22m\e[93X\e[1m\r\n0\e[22m  \e[1m0.00\e[22m\e[93X\e[1m\r\n0\e[22m  \e[1m0.00\e[22m\e[93X\e[1m\r\n0\e[22m  \e[1m0.00\e[22m\e[93X\e[1m\r\n0\e[22m  \e[1m0.00\e[22m\e[93X\e[1m\r\n0\e[22m  \e[1m0.00\e[22m\e[93X\e[1m\r\n0\e[22m  \e[1m0.00\e[22m\e[93X\r"
+  - delay: 5
+    content: |+
+
+  - delay: 193
+    content: "\e[32m 11:55:41\e[m | \e[1m\e[97mSuccess\r\e[m\n"
+  - delay: 10079
+    content: "\e[32m 11:55:51\e[m | \e[1m\e[97mSuccess\r\e[m\n"
+  - delay: 10057
+    content: "\e[32m 11:56:01\e[m | \e[1m\e[97mSuccess\r\e[m\nOrder Flow is Negative with more sellers than buyers\r\nNo Long Trade was intiated\r\nNo Holding Position to liquidate\r\n\n----------------------------------------------------------------\r\nWaiting for 10 secs before executing next order flow transaction\r"
+  - delay: 20
+    content: |+
+
+  - delay: 10004
+    content: "\e[25l\e[H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[?25h"
+  - delay: 15
+    content: "\e[25l\e[H-------------------------------------------------------------      \r\n-------------------------QUANTUM BID-------------------------      \r\n-------------------------------------------------------------      \r\n\e[67X\r\n\e[67X\r\nFetching OrderBook data to determine Bid-Ask quantity for NESTLEIND\r\n\e[67X\r\n\e[?25h"
+  - delay: 197
+    content: "\e[32m 11:56:12\e[m | \e[1m\e[97mSuccess\r\n"
+  - delay: 11
+    content: "\e[m\e[1m────────────────────────────────────────── Orderbook Data ──────────────────────────────────────────\r\n0\e[22m  \e[1m0.00\e[22m\e[93X\e[1m\r\n0\e[22m  \e[1m0.00\e[22m\e[93X\e[1m\r\n0\e[22m  \e[1m0.00\e[22m\e[93X\e[1m\r\n0\e[22m  \e[1m0.00\e[22m\e[93X\e[1m\r\n0\e[22m  \e[1m0.00\e[22m\e[93X\e[1m\r\n0\e[22m  \e[1m0.00\e[22m\e[93X\e[1m\r\n0\e[22m  \e[1m0.00\e[22m\e[93X\e[1m\r\n0\e[22m  \e[1m0.00\e[22m\e[93X\e[1m\r\n0\e[22m  \e[1m0.00\e[22m\e[93X\e[1m\r\n0\e[22m  \e[1m0.00\e[22m\e[93X\r\n"
+  - delay: 45
+    content: "\e[32m 11:56:12\e[m | \e[1m\e[97mSuccess\r\n"
+  - delay: 27
+    content: "\e[m"
+  - delay: 10036
+    content: "\e[32m 11:56:22\e[m | \e[1m\e[97mSuccess\r\n"
+  - delay: 25
+    content: "\e[m"
+  - delay: 10066
+    content: "\e[32m 11:56:32\e[m | \e[1m\e[97mSuccess\r\n"
+  - delay: 14
+    content: "\e[mOrder Flow is Negative with more sellers than buyers\e[12X\r\nNo Long Trade was intiated\e[38X\r\nNo Holding Position to liquidate\e[32X\r\n\e[64X\r\n----------------------------------------------------------------\r\nWaiting for 10 secs before executing next order flow transaction\r\n"
+  - delay: 3457
+    content: "Traceback (most recent call last):\r\n  File \e[35m\"C:\\openhftprod\\QuantumBid\\quantumbid.py\"\e[m, line \e[35m112\e[m, in \e[35m<module>\r\e[m\n    \e[31mtime.sleep\e[1m\e[91m(10)\e[m\e[K\r\n    \e[31m~~~~~~~~~~\e[1m\e[91m^^^^\e[m\e[K\r\n\e[1m\e[95mKeyboardInterrupt\e[m\e[K\r"
+  - delay: 23
+    content: |+
+
+  - delay: 87
+    content: 'PS C:\openhftprod\QuantumBid> '
+  - delay: 5807
+    content: "\e[?25l"
+  - delay: 24
+    content: "\e[93me\e[?25h"
+  - delay: 79
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[93m\bex\e[?25h"
+  - delay: 616
+    content: "\e[m\e[?25l"
+  - delay: 24
+    content: "\e[93m\e[30;31Hexi\e[?25h"
+  - delay: 56
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[92m\e[30;31Hexit\e[?25h"
+  - delay: 166
+    content: "\e[25l\e[m\e[HFetching OrderBook data to determine Bid-Ask quantity for NESTLEIND\e[K\r\n\e[K\e[32m\r\n 11:56:12\e[m | \e[1m\e[97mSuccess\e[m\e[K\e[1m\r\n────────────────────────────────────────── Orderbook Data ──────────────────────────────────────────\e[22m\e[K\e[1m\r\n0\e[22m  \e[1m0.00\e[22m\e[K\e[1m\r\n0\e[22m  \e[1m0.00\e[22m\e[K\e[1m\r\n0\e[22m  \e[1m0.00\e[22m\e[K\e[1m\r\n0\e[22m  \e[1m0.00\e[22m\e[K\e[1m\r\n0\e[22m  \e[1m0.00\e[22m\e[K\e[1m\r\n0\e[22m  \e[1m0.00\e[22m\e[K\e[1m\r\n0\e[22m  \e[1m0.00\e[22m\e[K\e[1m\r\n0\e[22m  \e[1m0.00\e[22m\e[K\e[1m\r\n0\e[22m  \e[1m0.00\e[22m\e[K\e[1m\r\n0\e[22m  \e[1m0.00\e[22m\e[K\e[32m\r\n 11:56:12\e[m | \e[1m\e[97mSuccess\e[m\e[K\e[32m\r\n 11:56:22\e[m | \e[1m\e[97mSuccess\e[m\e[K\e[32m\r\n 11:56:32\e[m | \e[1m\e[97mSuccess\e[m\e[K\r\nOrder Flow is Negative with more sellers than buyers\e[K\r\nNo Long Trade was intiated\e[K\r\nNo Holding Position to liquidate\e[K\r\n\e[K\r\n----------------------------------------------------------------\e[K\r\nWaiting for 10 secs before executing next order flow transaction\e[K\r\nTraceback (most recent call last):\e[K\r\n  File \e[35m\"C:\\openhftprod\\QuantumBid\\quantumbid.py\"\e[m, line \e[35m112\e[m, in \e[35m<module>\e[m\e[K\r\n    \e[31mtime.sleep\e[1m\e[91m(10)\e[m\e[K\r\n    \e[31m~~~~~~~~~~\e[1m\e[91m^^^^\e[m\e[K\e[1m\e[95m\r\nKeyboardInterrupt\e[m\e[K\r\nPS C:\\openhftprod\\QuantumBid> \e[92mexit\e[m\e[K\r\n\e[K\e[?25h"
