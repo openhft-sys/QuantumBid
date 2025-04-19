@@ -1,5 +1,6 @@
 <h1 align="center">QuantumBid</h1>
 <p align="center">An automated agent for running Orderbook strategies in your terminal</p>
+![render](https://github.com/user-attachments/assets/9ced1899-9c8f-4bc0-92a0-43d84f8a31c7)
 
 ---
 
