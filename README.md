@@ -159,7 +159,7 @@ Excel data/execution_log.csv
 
 ---
 
-## Zero Data Retention (ZDR) Organization Limitation
+## Localized Trade Execution (LTE) Organization Limitation
 
 > **Note:** QuantumBid does **not** currently support OpenHFT organizations policy on localized trade execution
 
